@@ -1,7 +1,7 @@
 function btnConfirm() {
-    const nomeInput = document.querySelector('#nome-perfil');
-    perfilGithub = nomeInput.value;
-    nomeInput.value = '';
+    const nomePerfil = document.querySelector('#nome-perfil');
+    perfilGithub = nomePerfil.value;
+    nomePerfil.value = '';
 
     atualizarPerfil()
 }
